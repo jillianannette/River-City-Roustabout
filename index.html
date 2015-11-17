@@ -14,7 +14,7 @@
 
 <body>
 <!-- Begin Nav Bar -->
-	<nav class="navbar navbar-default navbar-fixed-top" id="home">
+	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -22,7 +22,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="/" class="navbar-brand">River City Roustabout</a>
+				<a href="#home" class="navbar-brand">River City Roustabout</a>
 			</div>
 			<div class="collapse navbar-collapse" id="main-navbar">
 				<ul class="nav navbar-nav">
@@ -36,7 +36,7 @@
 	</nav>
 
 <!-- Begin Jumbotron -->
-	<div class="jumbotron">
+	<div id="home" class="jumbotron">
 		<div class="container-fluid">
 			<div>
 				<h1>River City Roustabout</h1>
@@ -45,7 +45,7 @@
 		</div>
 	</div>
 
-<!-- Begin Band Info -->
+	<!-- BEGIN Band Info -->
 	<div id="band">
 		<div class="container-fluid">
 			<div class="page-header">
@@ -61,42 +61,32 @@
 	<div class="detail">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col-sm-6">
 					<p class="lead">Luke Jellison</p>
-					<p class="info">vocals, guitar, harmonica, kazoo, spoons</p>
-					<br>
+					<p class="info">guitar &amp; mandolin</p>
+					<img class="img-circle" src="img/Luke-2.jpg" />
 				</div>
-				<div class="col-sm-4">
-					<p class="lead">Jeremy Bartel</p>
-					<p class="info">bass, mandolin, guitar</p>
+				<div class="col-sm-3">
+					<p class="lead">Evan Tirschek</p>
+					<p class="info">dobro &amp; pedal steel</p>
 					<br>
-				</div>
-				<div class="col-sm-4">
-					<p class="lead">Scott Smith</p>
-					<p class="info">vocals, percussion, mandolin, bass</p>
-					<br>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-4">
 					<p class="lead">Bryan Heeb</p>
 					<p class="info">banjo, percussion</p>
 					<br>
 				</div>
-				<div class="clear col-sm-4">
+				<div class="col-sm-3">
+					<p class="lead">Jeremy Bartel</p>
+					<p class="info">bass</p>
+					<br>
 					<p class="lead">Adam LaVigne</p>
-					<p class="info">percussion, backup vocals</p>
-					<br>
-				</div>
-				<div class="col-sm-4">
-					<p class="lead">Stephen Rees</p>
-					<p class="info">mandolin</p>
-					<br>
+					<p class="info">drums</p>
 				</div>
 			</div>
 		</div>
 	</div>
+	<!-- END Band Info -->
 
+	<!-- BEGIN Music Info -->
 	<div id="music">
 		<div class="container-fluid">
 			<div class="page-header">
@@ -112,29 +102,22 @@
 	<div class="detail">
 		<div class="container-fluid">
 			<div class="row">
+				<!-- Video Embed -->
 				<div class="col-sm-6">
-					<p class="lead">Media</p>
-
-					<!-- Video Embed -->
-					<div>
-						<iframe width="100%" height="320" src="https://www.youtube.com/embed/6Chm5VDoVzw" frameborder="0" allowfullscreen></iframe>
-					</div>
-					<br>
-					<!-- Playlist Embed -->
-					<div class="widget_iframe" style="display:inline-block;width:100%;height:205px;margin:0;padding:0;border:0;">
-						<iframe class="widget_iframe" src="http://www.reverbnation.com/widget_code/html_widget/artist_3092273?widget_id=50&pwc[design]=customized&pwc[background_color]=%23ffffff&pwc[included_songs]=1&pwc[photo]=0&pwc[size]=fit" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
-					</div>
+					<iframe width="100%" height="320" src="https://www.youtube.com/embed/6Chm5VDoVzw" frameborder="0" allowfullscreen></iframe>
 				</div>
+				<!-- Playlist Embed -->
 				<div class="col-sm-6">
-					<p class="lead">Upcoming Shows</p>
-					<div class="widget_iframe" style="display:inline-block;width:100%;height:550px;margin:0;padding:0;border:0;">
-						<iframe class="widget_iframe" src="http://www.reverbnation.com/widget_code/html_widget/artist_3092273?widget_id=52&pwc[design]=customized&pwc[background_color]=%23ffffff&pwc[layout]=detailed&pwc[show_map]=0%2C1&pwc[size]=fit" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+					<div class="widget_iframe" style="display:inline-block;width:100%;height:320px;margin:0;padding:0;border:0;">
+						<iframe class="widget_iframe" src="http://www.reverbnation.com/widget_code/html_widget/artist_3092273?widget_id=50&pwc[design]=customized&pwc[background_color]=%23ffffff&pwc[included_songs]=1&pwc[photo]=0&pwc[size]=fit" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<!-- END Music Info -->
 
+	<!-- BEGIN Contact Info -->
 	<div id="contact">
 		<div class="container-fluid">
 			<div class="page-header">
@@ -155,37 +138,32 @@
 				</div>
 				<div class="col-sm-6">
 					<p class="lead">Online</p>
-					<p><a target="_blank" href="https://www.facebook.com/RCROUSTABOUT">Facebook</a></p>
-					<p><a target="_blank" href="https://twitter.com/rcroustabout">Twitter</a></p>
+					<p><a target="_blank" href="https://www.facebook.com/RCROUSTABOUT"><img src="img/Facebook.png"/></a></p>
+					<p><a target="_blank" href="https://twitter.com/rcroustabout"><img src="img/Twitter-50.png"/></a></p>
 					<p><a target="_blank" href="http://www.reverbnation.com/rivercityroustabout">ReverbNation</a></p>
 
 				</div>
 			</div>
 		</div>
 	</div>
+	<!-- END Contact Info -->
 
 	<footer>
 		<div class="container-fluid">
-			<a data-scroll href="#home">Home</a> | 
-			<a data-scroll href="#band">Band</a> | 
-			<a data-scroll href="#music">Music</a> | 
-			<a data-scroll href="#contact">Contact</a>
+			<div class="pull-left col-sm-6">
+				<!--<a data-scroll href="#home">Return to Top</a> | -->
+				<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:booking@rivercityroustabout.com">booking@rivercityroustabout.com</a></p>
+			</div>
+			<div class="pull-right col-sm-6">
+				<a target="_blank" href="https://www.facebook.com/RCROUSTABOUT"><img src="img/Facebook.png"/></a> 
+				<a target="_blank" href="https://twitter.com/rcroustabout"><img src="img/Twitter-50.png"/></a>
+			</div>
 		</div>
 	</footer>
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/smooth-scroll.js"></script>
-
-	<script>
-		
-		$("#band img").tooltip();
-
-		smoothScroll.init({
-			speed: 500
-		});
-
-</script>
 
 	</body>
 </html>
