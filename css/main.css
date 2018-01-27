@@ -7,7 +7,7 @@ body {
 .bg-wrap {
     background-image: url('../img/Guitar.png');
     background-repeat: no-repeat;
-    background-attachment: absolute;
+    background-attachment: inherit;
     background-position: 150px 0px; 
 }
 
@@ -56,7 +56,7 @@ a:hover {
     visibility: visible;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 	body {
           padding-top: 56px;
     }
@@ -64,12 +64,10 @@ a:hover {
     .bg-wrap {
         background-image: url('../img/guitar.png');
         background-repeat: no-repeat;
-        background-attachment: absolute;
-        background-position: -65px 0px; 
+        background-attachment: inherit;
+        background-position: -50px 0px; 
     }
-}
 
-@media (min-width: 750px) {
     .navbar-nav {
         visibility: visible;
     }
