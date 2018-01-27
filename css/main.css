@@ -5,7 +5,7 @@ body {
 }
 
 .bg-wrap {
-    background-image: url('../img/Guitar.png');
+    background-image: url('../img/guitar.png');
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-position: 150px 0px; 
