@@ -1,194 +1,85 @@
 body {
-	font-family: "Lato", sans-serif;
-	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+    padding-top: 54px;
+    height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: "Amatic SC", serif;
-	font-weight: 400;
-	margin-top: 0px;
+.bg-wrap {
+    background-image: url('../img/Guitar.png');
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: 150px 0px; 
 }
 
-p {
-	font-size: 1.5em;
+.container {
+	max-width: 900px;
 }
 
-b, strong {
-	font-weight: 700;
+h1, h2, h3, h4, h5 {
+	font-family: 'VT323', monospace;
 }
 
-a, a:hover {
-	color: #111111;
+.h1, .h2, .h3, .h4, .h5 {
+	font-family: 'VT323', monospace;
 }
 
-.container-fluid {
-	max-width: 1200px;
+a {
+	color: #343a40;
 }
 
-.btn-lg {
-	padding: 16px 32px;
-}
-
-.btn-primary {
-	background: #111111;
-	border-color: #111111;
-	margin: 15px;
-}
-
-.btn-primary:hover {
-	background: #111111;
-	border-color: gray;
-}
-
-.form-control {
-	height: 50px;
-	padding: 12px 24px;
+a:hover {
+	color: #6c757d;
 }
 
 .navbar {
-	margin-bottom: 0px;
+	text-transform: uppercase;
 }
 
-.navbar-default {
-	background: #111111;
-	border-color: transparent;
-	border-radius: 0px;
+.navbar-nav {
+    visibility: hidden;
 }
 
-.navbar-default .navbar-brand,
-.navbar-default .navbar-nav>li>a {
-	color: #fefefe;
+.info {
+	font-size: 1.2rem;
+	font-weight: 300;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
-	background-color: #fefefe;
+.band h2, h3 {
+	margin-bottom: 0;
 }
 
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-brand:hover, 
-.navbar-default .navbar-brand:focus {
-	background: #fefefe;
-	border-color: #111111;
-	color: #262626;
+.footer {
+    text-align: left;
 }
 
-.navbar-default .navbar-toggle {
-	background: gray;
-	border-color: gray;
+.social {
+    visibility: visible;
 }
 
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:focus,
-.navbar-default .navbar-nav>.open>a,
-.navbar-default .navbar-nav>.open:hover,
-.navbar-default .navbar-nav>.open:focus {
-	color: #262626;
-	background-color: #fefefe;
+@media (min-width: 992px) {
+	body {
+          padding-top: 56px;
+    }
+
+    .bg-wrap {
+        background-image: url('../img/guitar.png');
+        background-repeat: no-repeat;
+        background-attachment: absolute;
+        background-position: -65px 0px; 
+    }
 }
 
-.navbar-brand {
-	padding: 25px;
-	height: auto !important;
-}
+@media (min-width: 750px) {
+    .navbar-nav {
+        visibility: visible;
+    }
 
-.navbar-toggle {
-	padding: 12px;
-	margin-top: 12.5px;
-	margin-bottom: 12.5px;
-	border-radius: 0px;
-}
+    .footer {
+        text-align: right;
+    }
 
-.jumbotron {
-	color: #ffffff;
-	text-shadow: 3px 3px 5px #000000;
-	margin-bottom: 0px;
-	margin-top: 50px;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	text-align: center;
-	background-color: #111111;
-}
-
-#band, #music, #contact {
-	text-align: left;
-	padding: 10px 10px 20px 10px;
-	background: url("../img/wood1.jpg");
-	color: #fefefe;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	text-shadow: 3px 3px 5px #000000;
-}
-
-footer {
-	font-size: 1.1em;
-	text-align: center;
-	padding: 18px;
-	color: #fefefe;
-	background: #111111;
-}
-
-footer a {
-	color: #fefefe;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-
-footer a:hover {
-	color: #fefefe;
-}
-
-@media (min-width: 768px) {
-	.navbar-nav>li>a {
-		padding-top: 25px;
-		padding-bottom: 25px;
-	}
-}
-
-#name, #email, #subject, #message {
-	width: 100%;
-}
-
-.navbar-default .navbar-toggle>a:hover {
-	background: #111111;
-}
-
-.lead {
-	font-size: 2em;
-	font-weight: 400;
-}
-
-.intro p {
-	display: inline;
-}
-
-/*.navbar-nav {
-	float: right;
-}*/
-
-.detail {
-	color: #111111;
-	background: #fefefe;
-	padding: 10px 10px 10px 10px;
-}
-
-.page-header {
-	margin: 0px 0 20px;
-}
-
-.jumbotron h1 {
-	font-size: 100px;
-	font-weight: 700;
-}
-
-.jumbotron p {
-	font-size: 26px;
-}
-
-h2 {
-	font-size: 50px;
-}
-
-#contact a, #contact a:hover {
-	color: #fefefe;
+    .social {
+        visibility: hidden;
+        height: 0;
+    }
 }
