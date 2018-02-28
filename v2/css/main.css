@@ -1,0 +1,81 @@
+body {
+	background: #efefef;
+}
+
+#mainNav {
+    background-color: rgba(60, 23, 50, 0.9);
+}
+
+#mainNav .navbar-brand {
+    color: #efefef;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(255,255,255,.7);
+    font-weight: 400;
+}
+
+.page-section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.section-heading .section-heading-upper {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.section-heading .section-heading-lower {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.cta {
+    background-color: #ccc;
+    margin-bottom: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.cta .cta-inner {
+    background-color: transparent;
+    padding: 0;
+}
+
+.cta .cta-inner:before {
+    border: none;
+}
+
+a {
+    color: #1A5276;
+}
+
+.btn-xl {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.footer {
+	color: #efefef;
+    background-color: rgba(60, 23, 50, 0.9);
+}
+
+@media (min-width: 992px) {
+	.intro .intro-img {
+    	width: 50%;
+    	float: left;
+    }
+
+    .intro .intro-text {
+    	left: 40%;
+    	right: 0;
+    	width: 60%;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-right {
+    	float: right!important;
+    	margin-right: -15px;
+    }
+}
